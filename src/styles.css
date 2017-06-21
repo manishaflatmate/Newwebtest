@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+.divBorder {
+    border: 1px solid #E57373;
+}
+.setborderRight {
+    border-right: .5px solid #B0B0B0;
+}
+.setborderLeft {
+    border-left: .5px solid #B0B0B0;
+}
+
+.app_white{
+	color:#ffffff;
+}
+.app_color{
+	color:#8CBE41;
+}
+
+.app_black{
+	color:#272727;
+}
+
+.bg_color{
+	color:#EFEFF4;
+}
+.dim_black{ 
+	color:#B0B0B0;
+}
+.baseline {
+    border-top: 1px solid #ccc;
+}
+.card-right{
+	float: left;
+	width: 50%;
+	padding-left: 1%;
+	padding-right: 2%;
+}
+
+.card-left{
+	float: left;
+	width: 50%;
+	padding-right: 1%;
+	padding-left: 2%;
+}
+.fontweight500
+{
+	font-weight: 500;
+}
+.fontsize18{
+    font-size: 18px;
+}
+.fontsize15{
+    font-size: 15px;
+}
+

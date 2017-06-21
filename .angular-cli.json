@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+	"service-worker.js"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -18,10 +19,20 @@
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
+      "serviceWorker": true,
       "styles": [
-        "styles.css"
+      	"styles.css",  
+	"../node_modules/materialize-css/css/prism.css",
+	"../node_modules/materialize-css/css/ghpages-materialize.css"
       ],
-      "scripts": [],
+      "scripts": [
+		"../node_modules/materialize-css/js/jquery.timeago.min.js",
+        "../node_modules/materialize-css/js/prism.js",
+        "../node_modules/materialize-css/jade/lunr.min.js",
+        "../node_modules/materialize-css/jade/search.js",
+        "../node_modules/materialize-css/bin/materialize.js",
+        "../node_modules/materialize-css/js/init.js"
+	],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -52,6 +63,7 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {
+    }
   }
 }
