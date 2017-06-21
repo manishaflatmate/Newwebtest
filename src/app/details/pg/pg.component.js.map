@@ -1,0 +1,1 @@
+{"version":3,"file":"pg.component.js","sourceRoot":"","sources":["pg.component.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,sCAAwC;AAMxC,IAAa,WAAW;IAEpB;QACI,IAAI,CAAC,OAAO,GAAG,sBAAsB,CAAA;IACzC,CAAC;IAAA,CAAC;IACN,kBAAC;AAAD,CAAC,AALD,IAKC;AALY,WAAW;IAJvB,gBAAS,CAAC;QACP,QAAQ,EAAE,QAAQ;QAClB,WAAW,EAAE,oBAAoB;KACpC,CAAC;;GACW,WAAW,CAKvB;AALY,kCAAW;AAKvB,CAAC"}

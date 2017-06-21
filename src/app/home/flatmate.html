@@ -1,0 +1,116 @@
+<nav class="nav-extended">
+    <div class="nav-wrapper" style="text-align: left;">
+      <a href="#" style="font-size: 1.7rem;">Flatmate</a>
+      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+      <a class="button-collapse right"><i class="material-icons">queue</i></a>
+      <ul id="slide-out" class="side-nav">
+	<li><div class="userView center">
+      		<div class="background">
+        		<img src="./assets/images/appimages/office.jpg">
+      		</div>
+      		<a ><img class="circle" src="./assets/images/appimages/yuna.jpg" style="display: inline-block;"></a>
+      		<a ><span class="white-text name">John Doe</span></a>
+      		<a ><span class="white-text email">jdandturk@gmail.com</span></a>
+   	</div></li>
+        <li><a ><i class="material-icons" style="color: #8cbe41;">library_add</i>Post Requirement</a></li>
+        <li><a ><i class="material-icons" style="color: #8cbe41;">input</i>Edit Prefrences</a></li>
+        <li><a ><i class="material-icons" style="color: #8cbe41;">view_list</i>Blocked Users</a></li>
+        <li><a ><i class="material-icons" style="color: #8cbe41;">thumbs_up_down</i>Rate Our App</a></li>
+        <li><a ><i class="material-icons" style="color: #8cbe41;">email</i>Feedback</a></li>
+        <li><a ><i class="material-icons" style="color: #8cbe41;">info</i>About</a></li>
+        <li><a ><i class="material-icons" style="color: #8cbe41;">library_add</i>Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+<div class="row">
+  	<div class="col s12">
+  		<div class="card">
+  			<div class="card-content">
+ 				<span class="card-title center-align">Search for Flats,Flatmates & PGs</span>
+				<div class="row">
+					<form class="col s12">
+						<div class="row">
+							<div class="center-align input-field col s12">
+								<i class="material-icons prefix">location_on</i>
+								<input id="icon_prefix" type="text" class="validate">
+								<label for="icon_prefix">Search by region or landmark</label>
+							</div>
+						</div>
+						<div class="row col s12 center-align">
+							<a class="waves-effect waves-light btn col s12">Search</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+</div>
+<div class="row">
+	<div class="center-align col s12">OR</div>
+</div>
+<div class="row">
+	<div class="col s12">
+		<div class="card">
+			<div class="card-content">
+				<span class="card-title center-align">List your requirement</span>
+					<div class="row">
+						<div class="col s6 center-align" style="">
+							<div><img class="responsive-img" src="./assets/images/appimages/main_male.png" alt="Image"></div>
+							<h6>Have Flat</h6>
+							<p>if you are looking for flatmate</p>
+						</div>
+						<div class="col s6 center-align" style="">
+							<div><img class="responsive-img" src="./assets/images/appimages/have_flat_bg.png" alt="Image"></div>
+							<h6>Need Flat</h6>
+							<p>if you are looking for flat with flatmate</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</div>
+<!--
+<md-sidenav-container>
+	<md-toolbar color="primary">
+		<md-icon class="app-icon-button" (click)="sidenav.toggle()">menu</md-icon>
+		<span class="app-toolbar-filler">&nbsp;FlatMate</span>
+	</md-toolbar>
+	<md-sidenav #sidenav mode="over" class="app-sidenav">
+
+      <md-toolbar color="primary">
+	<span class="app-toolbar-filler">&nbsp;FlatMate</span>
+      </md-toolbar>
+
+        <p>
+          Click outside menu to close...
+        </p>
+    </md-sidenav>
+	<div class="app-content">
+		<md-card>
+			<md-card-title class="card__title" style="font-size: 18px;">Search for Flats,Flatmates & PGs</md-card-title>
+			<md-input-container class='resizewidth'>
+				<input mdInput  type='text' placeholder="Search by region or landmark" value="" style='width:90%'>
+			</md-input-container>
+			<a routerLink="/list" routerLinkActive="active"><button class="searchbtn topmargin" >Search</button></a>
+		</md-card>
+		<div class='topbottommargin' align="center" style="color:#B0B0B0">OR</div>
+		<md-card>
+			<md-card-title class="card__title" style="font-size: 18px;">List your requirement</md-card-title>
+			<md-card-subtitle class="card__subtitle">It will take less then one minute</md-card-subtitle>
+			<md-grid-list cols="2" >
+				<md-grid-tile [colspan]="2" [rowspan]="1" style='width:90%'>
+				<div class="divBorder" style='width:45%;margin-right: 1%;'>
+					<div><img src="./assets/images/appimages/main_male.png" alt="Image"></div>
+					<div class="card__subtitle2">Have Flat</div>
+					<div class="card__subtitle3">if you are looking for flatmate</div>
+				</div>
+				<div class="divBorder" style='width:45%;margin-left: 1%;'>
+					<div><img src="./assets/images/appimages/have_flat_bg.png" alt="Image"></div>
+					<div class="card__subtitle2">Need Flat</div>
+					<div class="card__subtitle3">if you are looking for flat with flatmate</div>
+				</div>
+				</md-grid-tile>
+			</md-grid-list>
+		</md-card>
+	</div>
+</md-sidenav-container>  
+-->
